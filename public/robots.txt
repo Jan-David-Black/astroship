@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://astroship.web3templates.com/sitemap-index.xml
+Sitemap: http://Jan-David-Black.github.io/sitemap-index.xml
