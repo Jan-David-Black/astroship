@@ -5,7 +5,8 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://astroship.web3templates.com",
+  site: 'https://Jan-David-Black.github.io',
+  base: '/astroship',
   integrations: [
     tailwind(),
     image({
