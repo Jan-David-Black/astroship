@@ -16,19 +16,19 @@ const menuitems = [
   },
   {
     title: "Pricing",
-    path: "${import.meta.env.BASE_URL}/pricing",
+    path: import.meta.env.BASE_URL+"pricing",
   },
   {
     title: "About",
-    path: "${import.meta.env.BASE_URL}/about",
+    path: import.meta.env.BASE_URL+"about",
   },
   {
     title: "Blog",
-    path: "${import.meta.env.BASE_URL}/blog",
+    path: import.meta.env.BASE_URL+"blog",
   },
   {
     title: "Contact",
-    path: "${import.meta.env.BASE_URL}/contact",
+    path: import.meta.env.BASE_URL+"contact",
   },
 ];
 ---
@@ -37,7 +37,7 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
+        <a href={import.meta.env.BASE_URL} class="text-lg"
           ><span class="font-bold text-slate-800">Astro</span><span
             class="text-slate-500">ship</span
           >
